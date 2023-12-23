@@ -28,8 +28,6 @@ Grafo *removerAdjacente(Grafo *grafo, int verticeOrigem, int verticeDestino);
 //LeitorArquivo.c
 Grafo *lerArquivo(Grafo *grafo, char *caminhoArquivo,char *tipoConexao);
 
-//Dijkastra.c
-int *dijkastra(Grafo *grafo, int verticeSource, int verticeSink);
 
 #endif
 
